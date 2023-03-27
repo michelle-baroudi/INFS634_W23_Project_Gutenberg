@@ -1,0 +1,26 @@
+body {background-color: #FFF6EC;}
+body {@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap'); font-family: 'Sorts Mill Goudy', serif;}
+body {font-size: 20px;}
+body {color: black;} 
+.nav-link {
+    color: #434343 !important;
+    }
+.dropdown-menu li, .dropdown-menu a {
+    color: #434343;
+}
+
+.bookimage {
+    margin-left: 100px;
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 50px;
+}
+
+.nav-border {
+    border-radius: 300px;    
+}
