@@ -24,3 +24,35 @@ body {color: black;}
 .nav-border {
     border-radius: 300px;    
 }
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: #c78f4a;
+
+}
+.btn-primary {border-color: #FAB35C !important;
+background-color: #FAB35C;
+color:#434343;}
+
+.btn-primary:active, 
+.btn-primary:hover, 
+.btn-primary.focus, 
+.btn-primary.active {
+    background-color: #c78f4a !important;
+    border-color: #c78f4a !important;
+    color:#434343;
+}
+.search-bar {
+    margin: 0 auto;
+    display: inline-block;
+}
+.search-bar-input {
+    color: red;
+}
+h1 {
+    color: black;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+  }

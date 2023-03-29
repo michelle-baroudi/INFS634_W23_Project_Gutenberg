@@ -1,4 +1,6 @@
+<h1 style="text-align: right;">Home to over 60 000 free eBooks  |  Kindle-friendly!</h1>
 <img class="bookimage" src="Assets/img/Transparent_Logo.png" alt="logo">
+<?php include('searchbar.php'); ?>
 <nav class="navbar navbar-expand-lg nav-border" data-bs-theme="dark" style="background-color: #FAB35C">
   <div class="container-fluid justify-content-center">
     <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
