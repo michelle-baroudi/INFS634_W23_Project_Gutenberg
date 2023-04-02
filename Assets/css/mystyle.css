@@ -16,8 +16,8 @@ body {color: black;}
 }
 
 .navbar {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     height: 50px;
 }
 
@@ -42,17 +42,70 @@ color:#434343;}
     border-color: #c78f4a !important;
     color:#434343;
 }
-.search-bar {
-    margin: 0 auto;
-    display: inline-block;
-}
-.search-bar-input {
-    color: red;
-}
 h1 {
     color: black;
     font-size: 15px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
+     position: fixed;
+     right: 0;
+     width: 400px;
   }
+
+h2     {color: black;
+font-size: 20px;
+margin-right: 40px;
+margin-top: 20px;
+text-decoration:underline;
+text-align:center;
+font-family: 'IM Fell English SC', serif;
+}
+#description {
+    position: relative;
+    z-index: 100;
+}
+.carousel-control-prev-icon  {
+    background-color:#FAB35C;
+    border-radius: 30px;
+}
+
+.carousel-control-next-icon {
+    background-color: #FAB35C;
+    border-radius: 30px;
+}
+
+.room { max-width: 130px;
+    height: 200}
+.middle {max-width: 130px;
+height: 200px;}
+.little {max-width: 130px;
+    height: 200px;}
+.enchanted {max-width: 130px;
+    height: 200px;}
+.castle {max-width: 130px;
+    height: 200px;}
+
+    .carousel-inner {
+        width: 900px;
+        height: 300px;
+        bottom: -30px;
+        margin-left: 100px;
+      }
+
+    .carousel-control-next {
+        margin-left: 200px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-height: 100%;  
+    }
+    .searchbar {
+        position: fixed;
+        right: 50 px;
+        top: 65px;
+        width: 500px;
+      }
