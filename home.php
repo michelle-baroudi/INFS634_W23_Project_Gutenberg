@@ -37,17 +37,29 @@
 </div>
     <div class="carousel-item">
         <div class="row">
+        <div class="col-lg-2">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
             <div class="col-sm-2">
-                   <img src="..." class="d-block w-100" alt="...">
+            <image class="moby" img src="assets/img/moby.jpg" class="d-block w-100" alt="Moby Dick">
       </div>
         <div class="col-sm-2">
-                    <img src="..." class="d-block w-100" alt="...">
+        <image class="gatsby" img src="assets/img/gatsby.jpg" class="d-block w-100" alt="The Great Gatsby">
       </div>
          <div class="col-sm-2">
-                    <img src="..." class="d-block w-100" alt="...">
+         <image class= "pride" img src="assets/img/pride.jpg" class="d-block w-100" alt="Pride and Prejudice">
       </div>
          <div class="col-sm-2">
-                      <img src="..." class="d-block w-100" alt="...">
+         <image class="cranford" img src="assets/img/cranford.jpg" class="d-block w-100" alt="Cranford">
+                      <div class="col-sm-2">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       </div>
     </div>
   </div>

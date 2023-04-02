@@ -1,0 +1,13 @@
+  <div class ="container">
+    <div class="row">
+    <div class= "col-3">
+        <img src ="<?php echo $results ['Assets\img\middlemarch.jpg']; ?>" class="fluid">
+    </div>
+    <div class= "col-5">
+        <h2><?php echo $results ['Title']; ?></h2>
+        <h2>Description <?php echo $results ['Description']; ?></h2>
+          </div>
+          <div class= "col-4">
+            <a href="<?php echo $results['read_only_html']; ?>"><button class=)>
+        </div>
+    </div>

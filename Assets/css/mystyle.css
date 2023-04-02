@@ -11,8 +11,9 @@ body {color: black;}
 
 .bookimage {
     margin-left: 100px;
-    max-width: 150px;
+    max-width: 160px;
     height: auto;
+    
 }
 
 .navbar {
@@ -46,7 +47,7 @@ h1 {
     color: black;
     font-size: 15px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 130px;
     margin-top: 30px;
      position: fixed;
      right: 0;
@@ -83,8 +84,15 @@ height: 200px;}
     height: 200px;}
 .enchanted {max-width: 130px;
     height: 200px;}
-.castle {max-width: 130px;
+
+.moby { max-width: 130px;
+        height: 200}
+.gatsby {max-width: 130px;
     height: 200px;}
+.pride {max-width: 130px;
+        height: 200px;}
+.cranford {max-width: 130px;
+        height: 200px;}
 
     .carousel-inner {
         width: 900px;
@@ -104,8 +112,13 @@ height: 200px;}
         min-height: 100%;  
     }
     .searchbar {
-        position: fixed;
+        position: absolute;
         right: 50 px;
         top: 65px;
         width: 500px;
       }
+.paragraph {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}

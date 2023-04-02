@@ -21,9 +21,9 @@
             About
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="about.php">About Project Gutenberg</a></li>
+            <li><a class="dropdown-item" href="#">History and Philosophy</a></li>
+            <li><a class="dropdown-item" href="#">Collection Development</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -31,9 +31,9 @@
             Genres
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Fantasy</a></li>
+            <li><a class="dropdown-item" href="#">Romance</a></li>
+            <li><a class="dropdown-item" href="#">Science Fiction</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown" dropdown>
@@ -41,9 +41,9 @@
             Subjects
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">History</a></li>
+            <li><a class="dropdown-item" href="#">Politics</a></li>
+            <li><a class="dropdown-item" href="#">Psychology</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -51,9 +51,9 @@
             Popular Titles
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">A Room with a View</a></li>
+            <li><a class="dropdown-item" href="#">Little Women</a></li>
+            <li><a class="dropdown-item" href="middlemarch.php">Middlemarch</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -61,9 +61,8 @@
             Get Involved
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Donate</a></li>
+            <li><a class="dropdown-item" href="#">Volunteer</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -71,9 +70,9 @@
             Need help?
           </a>
           <ul class="dropdown-menu" style="background-color: #FAB35C">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">How-tos</a></li>
+            <li><a class="dropdown-item" href="#">Erratas, Bugs, and Fixes</a></li>
+            <li><a class="dropdown-item" href="#">Frequently Asked Questions (FAQs)</a></li>
           </ul>
         </li>
       </ul>
