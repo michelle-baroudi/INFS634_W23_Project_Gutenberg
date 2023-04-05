@@ -86,7 +86,7 @@ height: 200px;}
     height: 200px;}
 
 .moby { max-width: 130px;
-        height: 200}
+        height: 200px}
 .gatsby {max-width: 130px;
     height: 200px;}
 .pride {max-width: 130px;
@@ -106,14 +106,16 @@ height: 200px;}
     }
 
     .footer {
-        position: absolute;
-        bottom: 0;
+        position: fixed;
+        bottom: -10px;
         width: 100%;
-        min-height: 100%;  
+        text-align: center;
+        height:40px;
     }
+
     .searchbar {
         position: absolute;
-        right: 50 px;
+        right: 400px;
         top: 65px;
         width: 500px;
       }

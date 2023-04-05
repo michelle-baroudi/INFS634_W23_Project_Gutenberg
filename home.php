@@ -16,7 +16,9 @@
         </button>
       </div>
        <div class="col-lg-2">
+       <a href="booklink.php?name=A Room With A View">
         <image class= "room" img src="assets/img/room_with_a_view.jpg" class="d-block w-100" alt="A Room with a View">
+       </a>
       </div>
        <div class="col-lg-2">
          <image class= "middle" img src="assets/img/middlemarch.jpg" class="d-block w-100" alt="Middlemarch">

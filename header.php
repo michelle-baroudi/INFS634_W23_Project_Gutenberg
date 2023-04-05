@@ -5,7 +5,9 @@
   <div class="container">
     <div class="row">
       <div class="col-3">
-        <img class="bookimage" src="Assets/img/Transparent_Logo.png" alt="logo">
+        <a href="index.php">
+          <img class="bookimage" src="Assets/img/Transparent_Logo.png" alt="logo">
+        </a>
       </div>
       <div class="col-6">
         <?php include('searchbar.php'); ?>
@@ -53,7 +55,7 @@
           <ul class="dropdown-menu" style="background-color: #FAB35C">
             <li><a class="dropdown-item" href="#">A Room with a View</a></li>
             <li><a class="dropdown-item" href="#">Little Women</a></li>
-            <li><a class="dropdown-item" href="middlemarch.php">Middlemarch</a></li>
+            <li><a class="dropdown-item" href="#">Middlemarch</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
