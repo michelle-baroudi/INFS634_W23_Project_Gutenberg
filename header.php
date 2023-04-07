@@ -1,5 +1,5 @@
 <div class="col-3">
-<h1 style="text-align: right; position:fixed">Home to over 60 000 free eBooks  |  Kindle-friendly!</h1>
+<h1 style="text-align: right; position:absolute;">Home to over 60 000 free eBooks  |  Kindle-friendly!</h1>
 </div>
 <div class="container">
   <div class="container">

@@ -16,18 +16,24 @@
         </button>
       </div>
        <div class="col-lg-2">
-       <a href="booklink.php?name=A Room With A View">
+       <a href="booklink.php?book_id=2">
         <image class= "room" img src="assets/img/room_with_a_view.jpg" class="d-block w-100" alt="A Room with a View">
        </a>
       </div>
        <div class="col-lg-2">
+       <a href="booklink.php?book_id=1">
          <image class= "middle" img src="assets/img/middlemarch.jpg" class="d-block w-100" alt="Middlemarch">
-      </div>
+       </a>
+         </div>
      <div class="col-sm-2">
+     <a href="booklink.php?book_id=3">
          <image class= "little" img src="assets/img/little_women.jpg" class="d-block w-100" alt="Little Women">
+      </a>
       </div>
       <div class="col-sm-2">
+      <a href="booklink.php?book_id=4">
           <image class= "enchanted" img src="assets/img/enchanted_april.jpg" class="d-block w-100" alt="The Enchanted April">
+      </a>
       </div>
       <div class="col-sm-2">
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
