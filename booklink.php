@@ -23,7 +23,7 @@ $results=$stmt->fetch();
   <div class ="container">
     <div class="row">
     <div class= "col-3">
-        <image class= "imagename" img src ='assets/img/<?php echo $results ['image_name']; ?>.jpg' class="d-block w-100">
+        <image class= "imagename" img src ='assets/img/<?php echo $results ['file_name']; ?>.jpg' class="d-block w-100">
     </div>
     <div class= "col-6"> 
         <p class="author"><?php echo $results ['name']; ?> by <?php echo $results ['author']; ?> (<?php echo $results ['year']; ?>)</p>
@@ -31,15 +31,43 @@ $results=$stmt->fetch();
         <p class="description"> <b>Total downloads: </b> <?php echo $results ['download_count']; ?></p>
       </div>
       <div class="downloads" div class= "col-3">
-      <p class= download>Download Options</p>
+      <p class="download">Download Options</p>
           <div class="d-grid gap-2 d-md-flex center-content-md-end btn-group-vertical">
-                  <a href="https://www.gutenberg.org/cache/epub/2641/pg2641-images.html">
-                    <button class="btn btn-primary" type="button">Read online (HTML 5) 72 kb</button>
-                  </a>
-                  <button class="btn btn-primary" type="button">EPUB 3 (eReader)</button>
-                  <button class="btn btn-primary" type="button">EPUB (old eReader)</button>
-                  <button class="btn btn-primary" type="button">Kindle</button>
-                  <button class="btn btn-primary" type="button">Older Kindle</button>
+                  <form id="html_link" action="download_updates.php" method="post">
+                    <input type="hidden" name="bookId" value="<?php echo $book_id?>">
+                    <input type="hidden" name="link" value="<?php echo $results ['html_link']?>">
+                    <a href="#" onclick="javascript: document.getElementById('html_link').submit();">
+                      <button class= "link" button class="btn btn-primary" type="button">Read online (HTML 5) 72 kb</button>
+                    </a>
+                  </form>
+                  <form id="ereader3_link" action="download_updates.php" method="post">
+                    <input type="hidden" name="bookId" value="<?php echo $book_id?>">
+                    <input type="hidden" name="link" value="Assets/ereader3/<?php echo $results ['file_name']; ?>.epub">
+                    <a href="#" onclick="javascript: document.getElementById('ereader3_link').submit();">
+                      <button class= "link" button class="btn btn-primary" type="button">EPUB 3 (eReader)</button>
+                    </a>
+                  </form>
+                  <form id="ereader_link" action="download_updates.php" method="post">
+                    <input type="hidden" name="bookId" value="<?php echo $book_id?>">
+                    <input type="hidden" name="link" value="Assets/ereader/<?php echo $results ['file_name']; ?>.epub">
+                    <a href="#" onclick="javascript: document.getElementById('ereader_link').submit();">
+                      <button class= "link" button class="btn btn-primary" type="button">EPUB (old eReader)</button>
+                    </a>
+                  </form>
+                  <form id="kindle_link" action="download_updates.php" method="post">
+                    <input type="hidden" name="bookId" value="<?php echo $book_id?>">
+                    <input type="hidden" name="link" value="Assets/kindle/<?php echo $results ['file_name']; ?>.mobi">
+                    <a href="#" onclick="javascript: document.getElementById('kindle_link').submit();">
+                      <button class= "link" button class="btn btn-primary" type="button">Kindle</button>
+                    </a>
+                  </form>
+                  <form id="kindle_old_link" action="download_updates.php" method="post">
+                    <input type="hidden" name="bookId" value="<?php echo $book_id?>">
+                    <input type="hidden" name="link" value="Assets/kindle_old/<?php echo $results ['file_name']; ?>.mobi">
+                    <a href="#" onclick="javascript: document.getElementById('kindle_old_link').submit();">
+                      <button class= "link" button class="btn btn-primary" type="button">Older Kindle</button>
+                    </a>
+                  </form>
            </div>
            </div>
       </div>
@@ -47,5 +75,5 @@ $results=$stmt->fetch();
 <?php include('footer.php'); ?>
 <body> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
