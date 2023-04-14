@@ -1,6 +1,8 @@
+<!-- Text in upper right of header -->
 <div class="col-3">
 <h1 style="text-align: right; position:absolute;">Home to over 60 000 free eBooks  |  Kindle-friendly!</h1>
 </div>
+<!-- Logo -->
 <div class="container">
   <div class="container">
     <div class="row">
@@ -9,11 +11,13 @@
           <img class="bookimage" src="Assets/img/Transparent_Logo.png" alt="logo">
         </a>
       </div>
+<!-- Adding search bar in middle -->
       <div class="col-6">
         <?php include('searchbar.php'); ?>
       </div>
     </div>
   </div>
+<!-- Navigation bar with dropdown menu-->
 <nav class="navbar navbar-expand-lg nav-border" data-bs-theme="dark" style="background-color: #FAB35C">
   <div class="container-fluid justify-content-center">
     <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
@@ -22,11 +26,11 @@
           <a class="nav-link dropdown-toggle" href="#"role="button"data-bs-toggle="dropdown" aria-expanded="false" style=margin:15px;>
             About
           </a>
-          <ul class="dropdown-menu" style="background-color: #FAB35C">
+        <ul class="dropdown-menu" style="background-color: #FAB35C">
             <li><a class="dropdown-item" href="about.php">About Project Gutenberg</a></li>
             <li><a class="dropdown-item" href="#">History and Philosophy</a></li>
             <li><a class="dropdown-item" href="#">Collection Development</a></li>
-          </ul>
+        </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#"role="button"data-bs-toggle="dropdown" aria-expanded="false"style=margin:15px;>
