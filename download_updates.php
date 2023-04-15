@@ -17,5 +17,5 @@ $stmt->execute();
 
 <script>
    window.open("<?php echo $link ?>", '_blank');
-<?php header("Location: booklink.php?book_id={$book_id}"); ?>
+<?php header("Refresh: 0.1; url=booklink.php?book_id={$book_id}"); ?>
 </script>

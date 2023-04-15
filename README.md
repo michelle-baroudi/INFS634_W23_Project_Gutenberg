@@ -1,63 +1,48 @@
 # Project Gutenberg
- # Project Title
 
-Simple overview of use/purpose.
+This website allows users to search and download digital versions of books (eBooks) that are now in the public domain for free. It is a redesign of the already existing Project Gutenberg website.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Due to the scope of this project, I inevitably could not include every single eBook in the database. On mine, users can click on the first four books on display on the homepage in order to access their details in a new page. They can also search the titles of these books in the search bar to access these same pages. Users can also consult the "About" page by clicking "About Project Gutenberg" in the "About" dropdown menu. Normally, users would also be able to access the other tabs to discover the different genres/subjects and the books that belong to these genres/subjects. They would also be able to consult popular titles (i.e., the ones that are the most downloaded) in the "Popular Titles" tab. They would also be able to consult various information about the site such as information about volunteering and donating. 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* This should work on any OS. I developed it on Windows 10. 
+* Database server: MySQL 5.7.24
+* PHP version 8.1.0
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+*You will need to install MAMP with MySQL and PHP versions mentioned above. 
+*You will then need to download the zip files I sent on MyCourses to get access to my code (GitHub Repository Zip Export) and my database ( .MySQL extension file) and tables (MYSQL CSV Files).
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Open MAMP server
+* Open zip files I provided on phpmyadmin 
+* View website on port that is specified on MAMP
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+N/A
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Michelle Baroudi
+email: michelle.baroudi@mail.mcgill.ca
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+This is the final version;
+See commit history for other versions
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+N/A
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Original Project Gutenberg: (https://www.gutenberg.org/)
