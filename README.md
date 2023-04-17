@@ -16,8 +16,8 @@ Due to the scope of this project, I inevitably could not include every single eB
 
 ### Installing
 
-*You will need to install MAMP with MySQL and PHP versions mentioned above. 
-*You will then need to download the zip files I sent on MyCourses to get access to my code (GitHub Repository Zip Export) and my database ( .MySQL extension file) and tables (MYSQL CSV Files).
+* You will need to install MAMP with the MySQL and PHP versions mentioned above. 
+* You will then need to download the zip files I sent on MyCourses to get access to my code (GitHub Repository Zip Export) and my database ( .MySQL extension file) and tables (MYSQL CSV Files).
 
 ### Executing program
 
